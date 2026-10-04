@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M/s. SHREE LAXMI - Debt Collection & Recovery Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            100: '#fef3c7',
+                            200: '#fde68a',
+                            300: '#fcd34d',
+                            400: '#F3C362',
+                            500: '#E5A93C',
+                            600: '#D49B27',
+                            700: '#b45309',
+                            800: '#92400e',
+                        },
+                        midnight: {
+                            800: '#1E293B',
+                            900: '#0F172A',
+                            950: '#090D16'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #F3C362 0%, #D49B27 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #E5A93C 0%, #D49B27 100%);
+        }
+        .gold-border-glow:hover {
+            box-shadow: 0 0 20px rgba(212, 155, 39, 0.25);
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(212, 155, 39, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans selection:bg-gold-500 selection:text-midnight-950">
+
+    <header class="sticky top-0 z-50 bg-midnight-900/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 rounded-xl gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold text-2xl shadow-lg shadow-gold-600/20">
+                        SL
+                    </div>
+                    <div>
+                        <span class="text-xl font-extrabold tracking-wider text-white block leading-tight">M/s. SHREE LAXMI</span>
+                        <span class="text-xs text-gold-400 font-medium tracking-widest uppercase">Collection Work Services</span>
+                    </div>
+                </div>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                    <a href="#about" class="hover:text-gold-400 transition-colors">About Us</a>
+                    <a href="#metrics" class="hover:text-gold-400 transition-colors">Capacity</a>
+                    <a href="#services" class="hover:text-gold-400 transition-colors">Services</a>
+                    <a href="#partners" class="hover:text-gold-400 transition-colors">Partners</a>
+                    <a href="#coverage" class="hover:text-gold-400 transition-colors">Coverage</a>
+                    <a href="#contact" class="hover:text-gold-400 transition-colors">Contact</a>
+                </nav>
+
+                <!-- Header CTA Button -->
+                <div class="hidden md:block">
+                    <a href="#contact" class="gold-gradient-bg text-midnight-950 font-bold px-5 py-2.5 rounded-lg hover:brightness-110 transition-all shadow-md text-sm">
+                        Partner With Us
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="md:hidden text-slate-300 hover:text-white focus:outline-none">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-midnight-900 border-b border-slate-800 px-4 pt-2 pb-6 space-y-3 text-center">
+            <a href="#about" class="block py-2 text-slate-200 hover:text-gold-400">About Us</a>
+            <a href="#metrics" class="block py-2 text-slate-200 hover:text-gold-400">Capacity</a>
+            <a href="#services" class="block py-2 text-slate-200 hover:text-gold-400">Services</a>
+            <a href="#partners" class="block py-2 text-slate-200 hover:text-gold-400">Partners</a>
+            <a href="#coverage" class="block py-2 text-slate-200 hover:text-gold-400">Coverage</a>
+            <a href="#contact" class="block py-2 text-slate-200 hover:text-gold-400">Contact</a>
+        </div>
+    </header>
+
+    <section class="relative py-20 lg:py-28 overflow-hidden bg-gradient-to-b from-midnight-900 to-slate-950 border-b border-slate-800/80">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#D49B27_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold uppercase tracking-wider">
+                        <i class="fa-solid fa-shield-halved"></i> RBI & IIBF Compliant Debt Recovery Agency
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                        Ethical, Structured & High-Rate <span class="gold-gradient-text">Debt Collection</span> Services
+                    </h1>
+                    
+                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        M/s. SHREE LAXMI provides professional financial debt recovery, tele-calling, and field verification across Rajasthan. Led by 15+ years of operational excellence in banking and non-banking finance collections.
+                    </p>
+                    
+                    <div class="pt-2 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#contact" class="gold-gradient-bg text-midnight-950 font-bold px-7 py-3.5 rounded-xl hover:brightness-110 transition-all text-center shadow-lg shadow-gold-600/20">
+                            Initiate Inquiry <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#partners" class="bg-slate-800/90 text-slate-200 border border-slate-700 hover:border-gold-500/50 font-semibold px-7 py-3.5 rounded-xl transition-all text-center">
+                            View Client Partners
+                        </a>
+                    </div>
+
+                    <!-- Quick Highlights -->
+                    <div class="pt-6 grid grid-cols-2 sm:grid-cols-3 gap-4 text-left border-t border-slate-800/80">
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-certificate text-gold-400 text-xl"></i>
+                            <span class="text-xs text-slate-300 font-medium">Est. May 2026 Proprietorship</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-location-dot text-gold-400 text-xl"></i>
+                            <span class="text-xs text-slate-300 font-medium">Jaipur HQ & Multi-Region</span>
+                        </div>
+                        <div class="flex items-center gap-3 col-span-2 sm:col-span-1">
+                            <i class="fa-solid fa-user-shield text-gold-400 text-xl"></i>
+                            <span class="text-xs text-slate-300 font-medium">Soft & Hard Recovery Capabilities</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Info Card -->
+                <div class="lg:col-span-5">
+                    <div class="glass-card rounded-2xl p-6 sm:p-8 relative gold-border-glow transition-all duration-300">
+                        <div class="absolute -top-4 -right-4 bg-gold-500 text-midnight-950 text-xs font-extrabold px-3 py-1.5 rounded-lg shadow-md uppercase">
+                            Jaipur HQ
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-white mb-4 border-b border-slate-700/60 pb-3 flex items-center gap-2">
+                            <i class="fa-solid fa-building text-gold-400"></i> Corporate Snapshot
+                        </h3>
+                        
+                        <dl class="space-y-4 text-sm">
+                            <div class="flex justify-between pb-2 border-b border-slate-800">
+                                <dt class="text-slate-400">Firm Name</dt>
+                                <dd class="font-semibold text-gold-300">M/s. SHREE LAXMI</dd>
+                            </div>
+                            <div class="flex justify-between pb-2 border-b border-slate-800">
+                                <dt class="text-slate-400">Proprietor & Owner</dt>
+                                <dd class="font-medium text-slate-200">Mrs. Usha Ray</dd>
+                            </div>
+                            <div class="flex justify-between pb-2 border-b border-slate-800">
+                                <dt class="text-slate-400">Agency Holder / Ops Head</dt>
+                                <dd class="font-medium text-slate-200">Mr. Tulsi Ray</dd>
+                            </div>
+                            <div class="flex justify-between pb-2 border-b border-slate-800">
+                                <dt class="text-slate-400">GSTIN Registration</dt>
+                                <dd class="font-mono text-slate-300 text-xs bg-slate-900 px-2 py-1 rounded">08FREPR0023NIZK</dd>
+                            </div>
+                            <div class="flex justify-between pb-2 border-b border-slate-800">
+                                <dt class="text-slate-400">PAN Number</dt>
+                                <dd class="font-mono text-slate-300 text-xs bg-slate-900 px-2 py-1 rounded">FREPR0023N</dd>
+                            </div>
+                            <div class="flex justify-between">
+                                <dt class="text-slate-400">Primary Office Space</dt>
+                                <dd class="font-medium text-gold-400">260+ Sq. Ft. Furnished</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="metrics" class="py-16 bg-midnight-900/60 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-xs uppercase tracking-widest text-gold-400 font-semibold">Operational Capacity & Metrics</h2>
+                <p class="text-2xl sm:text-3xl font-bold text-white mt-2">Scale & Resources Built for Performance</p>
+                <p class="text-slate-400 text-sm mt-2">Dynamic counting reflects active infrastructure deployed across collection campaigns.</p>
+            </div>
+
+            <!-- Dynamic Counters Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- Counter 1 -->
+                <div class="glass-card p-6 rounded-2xl text-center hover:border-gold-500/40 transition-all">
+                    <div class="text-gold-400 text-3xl sm:text-4xl font-extrabold mb-1">
+                        <span class="counter" data-target="15">1</span><span class="text-gold-400">+</span>
+                    </div>
+                    <div class="text-sm font-semibold text-white">Years Leadership Experience</div>
+                    <p class="text-xs text-slate-400 mt-1">Operations led by Tulsi Ray</p>
+                </div>
+
+                <!-- Counter 2 -->
+                <div class="glass-card p-6 rounded-2xl text-center hover:border-gold-500/40 transition-all">
+                    <div class="text-gold-400 text-3xl sm:text-4xl font-extrabold mb-1">
+                        <span class="counter" data-target="4">1</span><span class="text-gold-400">+</span>
+                    </div>
+                    <div class="text-sm font-semibold text-white">Tele-Callers (TC)</div>
+                    <p class="text-xs text-slate-400 mt-1">Dedicated calling staff</p>
+                </div>
+
+                <!-- Counter 3 -->
+                <div class="glass-card p-6 rounded-2xl text-center hover:border-gold-500/40 transition-all">
+                    <div class="text-gold-400 text-3xl sm:text-4xl font-extrabold mb-1">
+                        <span class="counter" data-target="3">1</span><span class="text-gold-400">+</span>
+                    </div>
+                    <div class="text-sm font-semibold text-white">Field Executives (FE)</div>
+                    <p class="text-xs text-slate-400 mt-1">Ground visit specialists</p>
+                </div>
+
+                <!-- Counter 4 -->
+                <div class="glass-card p-6 rounded-2xl text-center hover:border-gold-500/40 transition-all">
+                    <div class="text-gold-400 text-3xl sm:text-4xl font-extrabold mb-1">
+                        <span class="counter" data-target="1">1</span><span class="text-gold-400">+</span>
+                    </div>
+                    <div class="text-sm font-semibold text-white">Back Office Staff</div>
+                    <p class="text-xs text-slate-400 mt-1">MIS & Audit compliance</p>
+                </div>
+
+                <!-- Counter 5 -->
+                <div class="glass-card p-6 rounded-2xl text-center hover:border-gold-500/40 transition-all">
+                    <div class="text-gold-400 text-3xl sm:text-4xl font-extrabold mb-1">
+                        <span class="counter" data-target="260">1</span><span class="text-gold-400">+</span>
+                    </div>
+                    <div class="text-sm font-semibold text-white">Sq. Ft. Furnished Office</div>
+                    <p class="text-xs text-slate-400 mt-1">Evershine Tower, Jaipur</p>
+                </div>
+
+                <!-- Counter 6 -->
+                <div class="glass-card p-6 rounded-2xl text-center hover:border-gold-500/40 transition-all">
+                    <div class="text-gold-400 text-3xl sm:text-4xl font-extrabold mb-1">
+                        <span class="counter" data-target="5">1</span><span class="text-gold-400">+</span>
+                    </div>
+                    <div class="text-sm font-semibold text-white">LAN Workstations & Laptops</div>
+                    <p class="text-xs text-slate-400 mt-1">Secure IT setup (2 Desktops, 3 Laptops)</p>
+                </div>
+
+                <!-- Counter 7 -->
+                <div class="glass-card p-6 rounded-2xl text-center hover:border-gold-500/40 transition-all">
+                    <div class="text-gold-400 text-3xl sm:text-4xl font-extrabold mb-1">
+                        <span class="counter" data-target="4">1</span><span class="text-gold-400">+</span>
+                    </div>
+                    <div class="text-sm font-semibold text-white">Key Service Hubs</div>
+                    <p class="text-xs text-slate-400 mt-1">Jaipur, Udaipur, Banswara, Bharatpur</p>
+                </div>
+
+                <!-- Counter 8 -->
+                <div class="glass-card p-6 rounded-2xl text-center hover:border-gold-500/40 transition-all">
+                    <div class="text-gold-400 text-3xl sm:text-4xl font-extrabold mb-1">
+                        <span class="counter" data-target="100">1</span><span class="text-gold-400">%+</span>
+                    </div>
+                    <div class="text-sm font-semibold text-white">Target Achievement Commitment</div>
+                    <p class="text-xs text-slate-400 mt-1">Strict adherence to RBI guidelines</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="py-20 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-gold-400 font-semibold">Institutional Relationships</h2>
+                <h3 class="text-3xl font-extrabold text-white mt-2">Trusted Client & Operational Partners</h3>
+                <p class="text-slate-400 text-sm mt-3">
+                    Leveraging 15+ years of operational trust with leading Banks, Small Finance Institutions, and Non-Banking Financial Companies (NBFCs).
+                </p>
+            </div>
+
+            <!-- Partners Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                
+                <!-- Partner 1 -->
+                <div class="bg-midnight-900 border border-slate-800 hover:border-gold-500/40 p-6 rounded-xl flex flex-col items-center text-center justify-between transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-400 text-2xl mb-4">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-1">AU Small Finance Bank</h4>
+                    <span class="text-xs text-gold-400 font-medium mb-3">(AU Finance)</span>
+                    <p class="text-xs text-slate-400">Retail & Commercial Loan Recovery Expertise</p>
+                </div>
+
+                <!-- Partner 2 -->
+                <div class="bg-midnight-900 border border-slate-800 hover:border-gold-500/40 p-6 rounded-xl flex flex-col items-center text-center justify-between transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-400 text-2xl mb-4">
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-1">Bajaj Finance</h4>
+                    <span class="text-xs text-gold-400 font-medium mb-3">Consumer & Personal Loans</span>
+                    <p class="text-xs text-slate-400">Soft Calling & Early Delinquency Resolution</p>
+                </div>
+
+                <!-- Partner 3 -->
+                <div class="bg-midnight-900 border border-slate-800 hover:border-gold-500/40 p-6 rounded-xl flex flex-col items-center text-center justify-between transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-400 text-2xl mb-4">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-1">Muthoot Fincorp</h4>
+                    <span class="text-xs text-gold-400 font-medium mb-3">Gold Loan & Asset Backed</span>
+                    <p class="text-xs text-slate-400">Ethical Customer Engagement & Collection</p>
+                </div>
+
+                <!-- Partner 4 -->
+                <div class="bg-midnight-900 border border-slate-800 hover:border-gold-500/40 p-6 rounded-xl flex flex-col items-center text-center justify-between transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-400 text-2xl mb-4">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-1">NM Finance</h4>
+                    <span class="text-xs text-gold-400 font-medium mb-3">Regional NBFC</span>
+                    <p class="text-xs text-slate-400">Field Visits & Localized Recovery Operations</p>
+                </div>
+
+                <!-- Partner 5 -->
+                <div class="bg-midnight-900 border border-slate-800 hover:border-gold-500/40 p-6 rounded-xl flex flex-col items-center text-center justify-between transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-400 text-2xl mb-4">
+                        <i class="fa-solid fa-users-gear"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-1">Jai Bhawani Associates</h4>
+                    <span class="text-xs text-gold-400 font-medium mb-3">Operational Strategic Network</span>
+                    <p class="text-xs text-slate-400">Synergistic Field & Skip-Tracing Support</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-midnight-900/40 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-gold-400 font-semibold">Core Expertise</h2>
+                <h3 class="text-3xl font-extrabold text-white mt-2">Comprehensive Debt Recovery Solutions</h3>
+                <p class="text-slate-400 text-sm mt-2">Tailored workflows designed to optimize resolution rates while maintaining brand integrity.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1 -->
+                <div class="glass-card rounded-2xl p-6 hover:border-gold-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-xl gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold text-xl mb-5">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Tele-Calling Operations (TC)</h4>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        4+ trained tele-callers using secure LAN infrastructure for early-stage reminders, soft reminders, and promise-to-pay (PTP) tracking.
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-2">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Soft Calling & Customer Counseling</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Daily PTP Tracking & Escalations</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="glass-card rounded-2xl p-6 hover:border-gold-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-xl gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold text-xl mb-5">
+                        <i class="fa-solid fa-person-walking"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Field Visit & Recovery (FE)</h4>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        3+ dedicated field executives conducting doorstep verification, physical visits, and on-ground negotiations across Rajasthan regions.
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-2">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Physical Address & Asset Verification</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Respectful & Ethical Face-to-Face Follow-ups</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="glass-card rounded-2xl p-6 hover:border-gold-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-xl gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold text-xl mb-5">
+                        <i class="fa-solid fa-magnifying-glass-location"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Skip Tracing & Address Tracing</h4>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        Advanced intelligence gathering techniques to locate untraceable or moved borrowers and updated contact details.
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-2">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Local Network Intelligence</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Demographic & Business Search</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="glass-card rounded-2xl p-6 hover:border-gold-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-xl gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold text-xl mb-5">
+                        <i class="fa-solid fa-clipboard-check"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Compliance & Audit Support</h4>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        Back-office team ensuring complete recording, data compliance, standard operating procedures, and strict RBI rule adherence.
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-2">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Daily MIS Reporting to Lenders</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Zero Tolerance for Unfair Practices</li>
+                    </ul>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="glass-card rounded-2xl p-6 hover:border-gold-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-xl gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold text-xl mb-5">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">NPA & Delinquent Account Management</h4>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        Specialized focus on hard recovery and long-standing delinquent non-performing assets through structured legal-aware protocols.
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-2">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Settlement Negotiations</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Pre-Legal Notice Coordination</li>
+                    </ul>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="glass-card rounded-2xl p-6 hover:border-gold-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-xl gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold text-xl mb-5">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Secure IT & Data Security</h4>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        Fully furnished 260+ Sq. Ft. facility with 2 Desktops and 3 Laptops interconnected on a high-speed LAN for seamless data handling.
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-2">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Encrypted Customer Information</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Real-time Tele-calling Records</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="coverage" class="py-20 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-gold-400 font-semibold">Geographical Network</h2>
+                <h3 class="text-3xl font-extrabold text-white mt-2">Key Service & Field Coverage Regions</h3>
+                <p class="text-slate-400 text-sm mt-2">Our on-ground field executives cover primary industrial and financial hubs in Rajasthan.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Region 1 -->
+                <div class="bg-midnight-900 p-6 rounded-2xl border border-slate-800 hover:border-gold-500/40 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-500/10 px-2.5 py-1 rounded">Headquarters</span>
+                        <i class="fa-solid fa-location-dot text-gold-400 text-xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Jaipur Region</h4>
+                    <p class="text-xs text-slate-400 mb-4">Vaishali Nagar HQ covering all urban and suburban districts in Jaipur.</p>
+                    <div class="text-xs text-slate-300 font-medium">
+                        <i class="fa-solid fa-check text-gold-400 mr-1"></i> Full Tele-Calling & Field Setup
+                    </div>
+                </div>
+
+                <!-- Region 2 -->
+                <div class="bg-midnight-900 p-6 rounded-2xl border border-slate-800 hover:border-gold-500/40 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-500/10 px-2.5 py-1 rounded">Southern Hub</span>
+                        <i class="fa-solid fa-map-location-dot text-gold-400 text-xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Udaipur Region</h4>
+                    <p class="text-xs text-slate-400 mb-4">Dedicated field executive coverage for commercial and retail collection.</p>
+                    <div class="text-xs text-slate-300 font-medium">
+                        <i class="fa-solid fa-check text-gold-400 mr-1"></i> On-Ground Recovery & Verification
+                    </div>
+                </div>
+
+                <!-- Region 3 -->
+                <div class="bg-midnight-900 p-6 rounded-2xl border border-slate-800 hover:border-gold-500/40 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-500/10 px-2.5 py-1 rounded">Tribal & Rural Belt</span>
+                        <i class="fa-solid fa-route text-gold-400 text-xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Banswara Region</h4>
+                    <p class="text-xs text-slate-400 mb-4">Deep coverage in regional micro-finance and gold loan collections.</p>
+                    <div class="text-xs text-slate-300 font-medium">
+                        <i class="fa-solid fa-check text-gold-400 mr-1"></i> Specialized Local Intelligence
+                    </div>
+                </div>
+
+                <!-- Region 4 -->
+                <div class="bg-midnight-900 p-6 rounded-2xl border border-slate-800 hover:border-gold-500/40 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-500/10 px-2.5 py-1 rounded">Eastern Belt</span>
+                        <i class="fa-solid fa-city text-gold-400 text-xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Bharatpur Region</h4>
+                    <p class="text-xs text-slate-400 mb-4">Prompt field visits for skip-tracing and borrower trace resolution.</p>
+                    <div class="text-xs text-slate-300 font-medium">
+                        <i class="fa-solid fa-check text-gold-400 mr-1"></i> Rapid Field Response Unit
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-midnight-900/60 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Details -->
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-xs uppercase tracking-widest text-gold-400 font-semibold">Leadership & Trust</span>
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Seasoned Management with 15+ Years Experience</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        M/s. SHREE LAXMI was established in May 2026 as a dedicated collection agency offering standardized recovery procedures for banks and financial institutions. Owned by **Mrs. Usha Ray (Proprietor)** and led operationally by **Mr. Tulsi Ray (Agency Holder)**, who brings over **15+ years of core collection domain knowledge**.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-lg gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold shrink-0">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-base font-bold text-white">Tulsi Ray - Operations Head</h5>
+                                <p class="text-xs text-slate-400 mt-1">
+                                    Directs field management, strategy execution, compliance audits, and bank relationship portfolios.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-lg gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold shrink-0">
+                                <i class="fa-solid fa-building-user"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-base font-bold text-white">Usha Ray - Proprietor & Owner</h5>
+                                <p class="text-xs text-slate-400 mt-1">
+                                    Oversees financial administration, legal compliance, governance, and business expansion.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Box - Facilities -->
+                <div class="lg:col-span-6">
+                    <div class="glass-card rounded-2xl p-8 relative">
+                        <h4 class="text-xl font-bold text-white mb-6 border-b border-slate-700/60 pb-3">
+                            <i class="fa-solid fa-desktop text-gold-400 mr-2"></i> Infrastructure & Equipment Capabilities
+                        </h4>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800">
+                                <span class="text-gold-400 font-extrabold text-2xl block mb-1">02+ Desktops</span>
+                                <span class="text-xs text-slate-300 font-medium">Dedicated TC Workstations</span>
+                                <p class="text-xs text-slate-500 mt-2">Connected on high-speed LAN network for voice and data processing.</p>
+                            </div>
+
+                            <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800">
+                                <span class="text-gold-400 font-extrabold text-2xl block mb-1">03+ Laptops</span>
+                                <span class="text-xs text-slate-300 font-medium">Mobile Operational Laptops</span>
+                                <p class="text-xs text-slate-500 mt-2">Utilized for field reporting, MIS generation, and management audits.</p>
+                            </div>
+
+                            <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800">
+                                <span class="text-gold-400 font-extrabold text-2xl block mb-1">260+ Sq. Ft.</span>
+                                <span class="text-xs text-slate-300 font-medium">Furnished Corporate Office</span>
+                                <p class="text-xs text-slate-500 mt-2">Evershine Tower, Amrapali Circle, Vaishali Nagar, Jaipur.</p>
+                            </div>
+
+                            <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800">
+                                <span class="text-gold-400 font-extrabold text-2xl block mb-1">100%+ Legal</span>
+                                <span class="text-xs text-slate-300 font-medium">RBI Regulatory Compliance</span>
+                                <p class="text-xs text-slate-500 mt-2">Code of conduct enforced for all tele-callers and field staff.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Contact Info Column -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div>
+                        <h2 class="text-xs uppercase tracking-widest text-gold-400 font-semibold">Get In Touch</h2>
+                        <h3 class="text-3xl font-extrabold text-white mt-2">Connect With Our Recovery Team</h3>
+                        <p class="text-slate-400 text-sm mt-3">
+                            Reach out to discuss collection empanelment, portfolio recovery, or verification support.
+                        </p>
+                    </div>
+
+                    <div class="space-y-4 pt-4">
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-midnight-900 border border-slate-800">
+                            <div class="w-10 h-10 rounded-lg gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-xs text-slate-400 font-semibold uppercase">Office Address</h5>
+                                <p class="text-sm font-medium text-white mt-1">
+                                    Office No. 524, 5th Floor, Evershine Tower, Amrapali Circle, Gautam Marg, Vaishali Nagar, Jaipur - 302021, Rajasthan
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-midnight-900 border border-slate-800">
+                            <div class="w-10 h-10 rounded-lg gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-xs text-slate-400 font-semibold uppercase">Phone / Mobile</h5>
+                                <p class="text-sm font-medium text-white mt-1">
+                                    <a href="tel:+919887794460" class="hover:text-gold-400 transition-colors">+91 9887794460</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-midnight-900 border border-slate-800">
+                            <div class="w-10 h-10 rounded-lg gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-xs text-slate-400 font-semibold uppercase">Official Email</h5>
+                                <p class="text-sm font-medium text-white mt-1">
+                                    <a href="mailto:shreelaxmidebtservices@gmail.com" class="hover:text-gold-400 transition-colors">shreelaxmidebtservices@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Form Column -->
+                <div class="lg:col-span-7">
+                    <div class="glass-card rounded-2xl p-6 sm:p-8">
+                        <h4 class="text-xl font-bold text-white mb-2">Send an Official Business Inquiry</h4>
+                        <p class="text-xs text-slate-400 mb-6">Fill out the details below to request portfolio empanelment or service discussions.</p>
+
+                        <form id="contactForm" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1">Your Name *</label>
+                                    <input type="text" required placeholder="e.g. Rajesh Sharma" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-slate-100 focus:border-gold-500 focus:outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1">Institution / Organization *</label>
+                                    <input type="text" required placeholder="e.g. Bank / NBFC Name" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-slate-100 focus:border-gold-500 focus:outline-none">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1">Contact Phone *</label>
+                                    <input type="tel" required placeholder="+91 9876543210" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-slate-100 focus:border-gold-500 focus:outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1">Email Address *</label>
+                                    <input type="email" required placeholder="name@company.com" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-slate-100 focus:border-gold-500 focus:outline-none">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1">Required Service Category</label>
+                                <select class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-slate-100 focus:border-gold-500 focus:outline-none">
+                                    <option>Tele-Calling & Soft Recovery</option>
+                                    <option>Field Verification & Doorstep Collection</option>
+                                    <option>Skip Tracing & Address Tracing</option>
+                                    <option>NPA Delinquent Portfolio Management</option>
+                                    <option>General Business Partnership</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1">Message / Portfolio Details</label>
+                                <textarea rows="4" placeholder="Mention expected volume, geography or portfolio requirement..." class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-slate-100 focus:border-gold-500 focus:outline-none"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full gold-gradient-bg text-midnight-950 font-extrabold py-3.5 rounded-xl hover:brightness-110 transition-all text-sm shadow-lg shadow-gold-600/20">
+                                Submit Inquiry
+                            </button>
+                        </form>
+
+                        <div id="formSuccessMessage" class="hidden mt-4 p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-sm text-center">
+                            <i class="fa-solid fa-circle-check mr-2"></i> Thank you! Your inquiry has been submitted successfully. Our team will contact you shortly.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-midnight-950 border-t border-slate-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-lg gold-gradient-bg flex items-center justify-center text-midnight-950 font-bold text-lg">
+                        SL
+                    </div>
+                    <div>
+                        <span class="text-base font-bold text-white block">M/s. SHREE LAXMI</span>
+                        <span class="text-xs text-slate-400">Collection Work Services • Jaipur, Rajasthan</span>
+                    </div>
+                </div>
+
+                <div class="text-xs text-slate-500 text-center md:text-right space-y-1">
+                    <p>PAN: <span class="text-slate-300">FREPR0023N</span> | GSTIN: <span class="text-slate-300">08FREPR0023NIZK</span></p>
+                    <p>© 2026 M/s. SHREE LAXMI. All Rights Reserved. Ethical Debt Recovery Practice.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Navigation Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Form Submit Simulation
+        const contactForm = document.getElementById('contactForm');
+        const formSuccessMessage = document.getElementById('formSuccessMessage');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            formSuccessMessage.classList.remove('hidden');
+            contactForm.reset();
+            setTimeout(() => {
+                formSuccessMessage.classList.add('hidden');
+            }, 6000);
+        });
+
+        // Running Counter Animation Logic with Intersection Observer
+        document.addEventListener('DOMContentLoaded', () => {
+            const counters = document.querySelectorAll('.counter');
+            const speed = 60; // Lower is faster
+
+            const startCounting = (counter) => {
+                const target = parseInt(counter.getAttribute('data-target'), 10);
+                let current = 1;
+
+                const updateCount = () => {
+                    const increment = Math.ceil(target / speed);
+                    if (current < target) {
+                        current += increment;
+                        if (current > target) current = target;
+                        counter.innerText = current < 10 && target < 10 ? '0' + current : current;
+                        setTimeout(updateCount, 25);
+                    } else {
+                        counter.innerText = target < 10 ? '0' + target : target;
+                    }
+                };
+
+                updateCount();
+            };
+
+            // Observer to trigger counter when scrolled into view
+            const observerOptions = {
+                threshold: 0.3
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const counter = entry.target;
+                        startCounting(counter);
+                        observer.unobserve(counter); // Trigger only once
+                    }
+                });
+            }, observerOptions);
+
+            counters.forEach(counter => {
+                observer.observe(counter);
+            });
+        });
+    </script>
+</body>
+</html>
